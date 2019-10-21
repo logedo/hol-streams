@@ -33,7 +33,7 @@ public final class Unit1MyCreate implements Unit1Create {
 
     @Override
     public IntStream from(String s) {
-        return IntStream.empty();
+         return s == null ? IntStream.empty() : s.chars();
     }
 
     @Override
