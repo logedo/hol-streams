@@ -12,7 +12,7 @@ public final class Unit1MyCreate implements Unit1Create {
 
     @Override
     public Stream<String> newStreamOfAToC() {
-        return Stream.empty();
+        return Stream.of("A", "B", "C");
     }
 
     @Override
