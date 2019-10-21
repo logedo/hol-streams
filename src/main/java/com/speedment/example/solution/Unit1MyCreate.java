@@ -22,7 +22,7 @@ public final class Unit1MyCreate implements Unit1Create {
 
     @Override
     public Stream<String> from(String[] array) {
-        return Stream.empty();
+        return Stream.of(array);
     }
 
     @Override
