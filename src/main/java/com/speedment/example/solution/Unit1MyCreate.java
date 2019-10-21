@@ -27,7 +27,8 @@ public final class Unit1MyCreate implements Unit1Create {
 
     @Override
     public Stream<String> from(Collection<String> collection) {
-        return Stream.empty();
+        String[] strings = (String[]) collection.toArray();
+        return Stream.of(strings);
     }
 
     @Override
