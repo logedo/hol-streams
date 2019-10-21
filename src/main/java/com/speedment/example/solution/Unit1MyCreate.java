@@ -17,7 +17,7 @@ public final class Unit1MyCreate implements Unit1Create {
 
     @Override
     public IntStream newIntStreamOfOneToSeven() {
-        return IntStream.empty();
+        return IntStream.rangeClosed(1, 7);
     }
 
     @Override
